@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 HELP.md
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -26,11 +28,4 @@ HELP.md
 
 ### VS Code ###
 .vscode/
-.idea/workspace.xml
-.idea/modules/com.b328.blockchain.test.iml
-.idea/modules/com.b328.blockchain.main.iml
-.idea/workspace.xml
-src/main/resources/application.properties
-out/production/resources/application.properties
-=======
->>>>>>> parent of ab24e10... gitignore
+build.gradle
