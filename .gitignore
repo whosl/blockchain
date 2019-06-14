@@ -29,3 +29,5 @@ HELP.md
 .idea/modules/com.b328.blockchain.test.iml
 .idea/modules/com.b328.blockchain.main.iml
 .idea/workspace.xml
+src/main/resources/application.properties
+out/production/resources/application.properties
