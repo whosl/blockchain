@@ -32,16 +32,16 @@ public interface MessageMapper {
     @Insert("INSERT INTO Message(create_date, author, title, content, partyA, partyB) VALUES(#{createDate}, #{author}, #{title}, #{content}, #{partyA}, #{partyB})")
     int addMessage(Message message);
 
-    @Update("UPDATE Message SET partyA = 1 WHERE id = #{id}")
+    @Update("UPDATE Message SET pAsigned = 1 WHERE id = #{id}")
     void pAsign(Integer id);
 
-    @Update("UPDATE Message SET partyB = 1 WHERE id = #{id}")
+    @Update("UPDATE Message SET pBsigned = 1 WHERE id = #{id}")
     void pBsign(Integer id);
 
     @Select("SELECT partyA from Message WHERE id = #{id}")
     String getpartyAById(Integer id);
 
-    @Select("SELECT partyA from Message WHERE id = #{id}")
+    @Select("SELECT partyB from Message WHERE id = #{id}")
     String getpartyBById(Integer id);
 
     @Select("SELECT pAsigned from Message WHERE id = #{id}")
