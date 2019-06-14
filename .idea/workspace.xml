@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65efcecb-37ff-4d38-b451-c1b9183656cd" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java" afterDir="false" />
-=======
+
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" afterDir="false" />
@@ -23,7 +17,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/util/Md5SaltTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/util/Md5SaltTool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
->>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
+
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 
 ### STS ###
@@ -31,3 +32,5 @@ HELP.md
 .idea/workspace.xml
 src/main/resources/application.properties
 out/production/resources/application.properties
+=======
+>>>>>>> parent of ab24e10... gitignore
