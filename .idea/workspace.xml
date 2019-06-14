@@ -7,11 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65efcecb-37ff-4d38-b451-c1b9183656cd" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.b328.blockchain.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/controller/AvatarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/controller/AvatarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/util/Md5SaltTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/b328/blockchain/util/Md5SaltTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -35,12 +47,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="blockchain" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -48,8 +55,9 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/controller/AvatarController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="43">
@@ -87,10 +95,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
               <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/MessageboardApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,6 +138,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
             </state>
           </provider>
         </entry>
@@ -162,22 +184,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/b328/messageboard/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/b328/messageboard/mapper/MessageMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/b328/messageboard/controller/MessageController.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
         <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/IMessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/mapper/MessageMapper.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/b328/blockchain/MessageboardApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="251" />
-    <option name="y" value="-17" />
-    <option name="width" value="1295" />
-    <option name="height" value="1421" />
+    <option name="x" value="-15" />
+    <option name="y" value="10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -220,6 +257,7 @@
             </path>
             <path>
               <item name="blockchain" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="blockchain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -275,6 +313,8 @@
             </path>
             <path>
               <item name="blockchain" type="b2602c69:ProjectViewProjectNode" />
+=======
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
               <item name="blockchain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -294,16 +334,22 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560519764022" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560521474199" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -522,13 +568,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="40886000" />
+=======
+    <option name="totallyTimeSpent" value="40860000" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="886" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20332226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,19 +586,29 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.7714477" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900332" weight="0.19628647" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76744187" weight="0.39124668" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76744187" weight="0.28647214" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49833888" visible="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Spring" order="8" />
+=======
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.68565685" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50099665" side_tool="true" weight="0.32891247" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49568108" weight="0.32891247" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.22855228" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49396783" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.49966776" weight="0.32891247" />
@@ -559,7 +619,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.14352159" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.14343163" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -637,9 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -652,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/entity/vo/MessagePageVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -677,13 +734,6 @@
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -715,6 +765,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/MessageboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -730,6 +781,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/controller/AvatarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
         </state>
       </provider>
     </entry>
@@ -756,13 +813,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/mapper/LikesMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="152">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/controller/MessageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -777,19 +836,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/service/MessageService.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="214">
           <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>
+=======
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/b328/blockchain/MessageboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 725e0240066fbdf9e6431f60da017e6719902632
   </component>
   <component name="masterDetails">
     <states>
@@ -832,7 +932,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -844,7 +944,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com.b328.messageboard</last-edited>
+          <last-edited>com.b328.blockchain</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
