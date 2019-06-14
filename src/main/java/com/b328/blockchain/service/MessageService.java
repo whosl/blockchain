@@ -1,6 +1,5 @@
 package com.b328.blockchain.service;
 
-import com.b328.blockchain.mapper.LikesMapper;
 import com.b328.blockchain.mapper.MessageMapper;
 import com.b328.blockchain.entity.Message;
 import com.b328.blockchain.result.Result;
@@ -20,8 +19,6 @@ import java.util.List;
 public class MessageService implements IMessageService {
     @Autowired
     MessageMapper messageMapper;
-    @Autowired
-    LikesMapper likesMapper;
 
     /**
      * 向前端返回消息页面
