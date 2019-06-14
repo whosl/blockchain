@@ -40,7 +40,12 @@ public class MessageService implements IMessageService {
      */
     @Override
     public Message getMessageById(Integer id) {
-        return messageMapper.getMessageById(id);
+        Message message = messageMapper.getMessageById(id);
+        if(messageMapper.ispAsigned(id) == 1)message.setpAsigned(true);
+        else message.setpAsigned(false);
+        if(messageMapper.ispBsigned(id) == 1)message.setpBsigned(true);
+        else message.setpBsigned(false);
+        return message;
     }
 
     /**
