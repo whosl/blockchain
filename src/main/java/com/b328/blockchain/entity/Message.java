@@ -39,6 +39,14 @@ public class Message {
      * 乙方
      */
     private String partyB;
+    /**
+     * 甲方签署状态
+     */
+    private Integer pAsigned;
+    /**
+     * 乙方签署状态
+     */
+    private Integer pBsigned;
 
     public int getLike_number() {
         return like_number;
@@ -48,7 +56,21 @@ public class Message {
         this.like_number = like_number;
     }
 
+    public Integer getpAsigned() {
+        return pAsigned;
+    }
 
+    public void setpAsigned(Integer pAsigned) {
+        this.pAsigned = pAsigned;
+    }
+
+    public Integer getpBsigned() {
+        return pBsigned;
+    }
+
+    public void setpBsigned(Integer pBsigned) {
+        this.pBsigned = pBsigned;
+    }
 
     public int getId() {
         return id;

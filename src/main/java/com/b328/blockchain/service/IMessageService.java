@@ -1,7 +1,7 @@
 package com.b328.blockchain.service;
 
-import com.b328.blockchain.entity.Likes;
 import com.b328.blockchain.entity.Message;
+import com.b328.blockchain.result.Result;
 
 import java.util.List;
 
@@ -28,24 +28,5 @@ public interface IMessageService {
      */
     int addMessage(Message message);
 
-    /**
-     * 添加赞
-     * @param message
-     * @param uid
-     */
-    void addLike(Message message, Integer uid);
-
-    /**
-     * 取消赞
-     * @param message
-     * @param uid
-     */
-    void addDislike(Message message, Integer uid);
-
-    /**
-     * 判断是否有赞
-     * @param likes
-     * @return
-     */
-    boolean hasLike(Likes likes);
+    Result signContract(String username, Integer id);
 }

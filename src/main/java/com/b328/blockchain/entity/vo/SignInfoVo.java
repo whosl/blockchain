@@ -1,6 +1,6 @@
 package com.b328.blockchain.entity.vo;
 
-public class LikeInfoVo {
+public class SignInfoVo {
     /**
      * 用户名
      */

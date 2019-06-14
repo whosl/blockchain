@@ -1,8 +1,7 @@
 package com.b328.blockchain.controller;
 
-import com.b328.blockchain.entity.Likes;
 import com.b328.blockchain.entity.Message;
-import com.b328.blockchain.entity.vo.LikeInfoVo;
+import com.b328.blockchain.entity.vo.SignInfoVo;
 import com.b328.blockchain.entity.vo.MessagePageVo;
 import com.b328.blockchain.result.Result;
 import com.b328.blockchain.result.ResultCode;
@@ -25,6 +24,7 @@ public class MessageController {
     IMessageService IMessageService;
     @Autowired
     UserService userService;
+
 
     /**
      *向前端返回消息页面
@@ -66,54 +66,15 @@ public class MessageController {
     }
 
     /**
-     * 为当前留言添加一个赞
-     * @param likeInfoVo
+     * 签署当前合同
+     * @param signInfoVo
      * @return Result
      */
     @CrossOrigin
-    @RequestMapping(value = "/addLike", method = RequestMethod.POST)
+    @RequestMapping(value = "/sign", method = RequestMethod.POST)
     @ResponseBody
-    public Result addLike(/*@PathVariable(name = "id") int id*/@Valid @RequestBody LikeInfoVo likeInfoVo) {
-        Integer uid = userService.getIdByName(likeInfoVo.getUser_name());
-        Likes likes = new Likes();
-        likes.setMessage_id(likeInfoVo.getMessage_id());
-        likes.setUser_id(uid);
-        if(!hasLike(likes)) {
-            Message message = IMessageService.getMessageById(likeInfoVo.getMessage_id());
-            message.setLike_number(message.getLike_number() + 1);
-            IMessageService.addLike(message,uid);
-            return ResultFactory.buildSuccessResult("成功");
-        }else {
-            return ResultFactory.buildFailResult(ResultCode.FAIL);
-        }
-    }
-
-    /**
-     * 为当前留言取消一个赞
-     * @param likeInfoVo
-     */
-    @CrossOrigin
-    @RequestMapping(value = "/addDislike/{id}", method = RequestMethod.POST)
-    @ResponseBody
-    public void addDislike(/*@PathVariable(name = "id") int id*/@Valid @RequestBody LikeInfoVo likeInfoVo) {
-        Integer uid = userService.getIdByName(likeInfoVo.getUser_name());
-        Likes likes = new Likes();
-        likes.setMessage_id(likeInfoVo.getMessage_id());
-        likes.setUser_id(uid);
-        if(hasLike(likes)) {
-            Message message = IMessageService.getMessageById(likeInfoVo.getMessage_id());
-            message.setLike_number(message.getLike_number() - 1);
-            IMessageService.addDislike(message,uid);
-        }
-    }
-
-    /**
-     * 判断是否存在此点赞信息
-     * @param likes
-     * @return boolean
-     */
-    public boolean hasLike(Likes likes){
-        return IMessageService.hasLike(likes);
+    public Result sign(/*@PathVariable(name = "id") int id*/@Valid @RequestBody SignInfoVo signInfoVo) {
+        return IMessageService.signContract(signInfoVo.getUser_name(),signInfoVo.getMessage_id());
     }
 
 }

@@ -1,9 +1,11 @@
 package com.b328.blockchain.service;
 
-import com.b328.blockchain.entity.Likes;
 import com.b328.blockchain.mapper.LikesMapper;
 import com.b328.blockchain.mapper.MessageMapper;
 import com.b328.blockchain.entity.Message;
+import com.b328.blockchain.result.Result;
+import com.b328.blockchain.result.ResultCode;
+import com.b328.blockchain.result.ResultFactory;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -55,46 +57,22 @@ public class MessageService implements IMessageService {
         return messageMapper.addMessage(message);
     }
 
-    /**
-     * 更新message表中的赞数，同时向Likes表中插入记录
-     * @param message
-     * @Param uid
-     * @return
-     */
     @Override
-    public void addLike(Message message, Integer uid) {
-        messageMapper.changeLike(message);
-        Likes likes = new Likes();
-        likes.setMessage_id(message.getId());
-        likes.setUser_id(uid);
-        likesMapper.addLike(likes);
-    }
-
-    /**
-     * 更新message表中的赞数，同时删除Likes表中的记录
-     * @param message
-     * @Param uid
-     * @return
-     */
-    @Override
-    public void addDislike(Message message, Integer uid){
-        messageMapper.changeLike(message);
-        Likes likes = new Likes();
-        likes.setMessage_id(message.getId());
-        likes.setUser_id(uid);
-        likesMapper.addDislike(likes);
-    }
-
-    /**
-     * 判断当前赞是否存在
-     * @param likes
-     * @return
-     */
-    @Override
-    public boolean hasLike(Likes likes){
-        if(likesMapper.hasLike(likes).isEmpty())
-            return false;
-        return true;
+    public Result signContract(String username, Integer id){
+        if(messageMapper.getpartyAById(id).equals(username)){//is partyA
+            if(messageMapper.ispAsigned(id)==1){ //signed
+               return ResultFactory.buildFailResult(ResultCode.HaveExist);
+            }else{
+                messageMapper.pAsign(id);
+            }
+        }else if(messageMapper.getpartyBById(id).equals(username)){//is partyB
+            if(messageMapper.ispBsigned(id)==1){ //signed
+                return ResultFactory.buildFailResult(ResultCode.HaveExist);
+            }else{
+                messageMapper.pBsign(id);
+            }
+        }
+        return ResultFactory.buildSuccessResult(ResultCode.SUCCESS);
     }
 
 }

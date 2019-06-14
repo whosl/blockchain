@@ -1,6 +1,5 @@
 package com.b328.blockchain.mapper;
 
-import com.b328.blockchain.entity.Likes;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
