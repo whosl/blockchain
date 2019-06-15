@@ -30,6 +30,7 @@ public interface MessageMapper {
      * @return int
      */
     @Insert("INSERT INTO Message(create_date, author, title, content, partyA, partyB) VALUES(#{createDate}, #{author}, #{title}, #{content}, #{partyA}, #{partyB})")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
     int addMessage(Message message);
 
     @Update("UPDATE Message SET pAsigned = 1 WHERE id = #{id}")

@@ -59,10 +59,17 @@ public class MessageController {
     @CrossOrigin
     @RequestMapping(value = "/addMessage", method = RequestMethod.POST)
     @ResponseBody
-    public int addMessage(@RequestBody Message message) {
-        if (message.getContent().equals("") || message.getTitle().equals("")||message.getPartyA().equals("")||message.getPartyB().equals(""))
-            return 0;
-        return IMessageService.addMessage(message);
+    public Message addMessage(@RequestBody Message message) {
+        if (message.getContent().equals("") || message.getTitle().equals("")||message.getPartyA().equals("")||message.getPartyB().equals("")) {
+            message.setId(0);
+            return message;
+        }
+        else if(IMessageService.addMessage(message)==0){
+            message.setId(0);
+            return message;
+        }else {
+            return message;
+        }
     }
 
     /**
