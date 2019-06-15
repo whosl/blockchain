@@ -2,17 +2,16 @@ package com.b328.blockchain.controller;
 
 import com.b328.blockchain.entity.Model;
 import com.b328.blockchain.service.IModelService;
-import com.sun.org.apache.xpath.internal.operations.Mod;
+import com.b328.blockchain.service.ModelService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.web.bind.annotation.*;
 
-
+@RestController
 public class ModelController {
     @Autowired
-    IModelService iModelService;
+    @Qualifier("ModelService1")
+    IModelService modelService;
 
     /**
      * 通过id检索模板信息
@@ -20,9 +19,9 @@ public class ModelController {
      * @return Message
      */
     @CrossOrigin
-    @RequestMapping(value = "/getModel", method = RequestMethod.GET)
+    @RequestMapping(value = "/getModel/{id}", method = RequestMethod.GET)
     public Model getMessageById(@PathVariable(name = "id") int id) {
-        return iModelService.getModelById(id);
+        return modelService.getModelById(id);
     }
 
 
