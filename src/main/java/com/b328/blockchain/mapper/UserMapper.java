@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
+
 public interface UserMapper {
     /**
      * 返回所有用户
