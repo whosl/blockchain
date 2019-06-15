@@ -30,3 +30,7 @@ HELP.md
 ### VS Code ###
 .vscode/
 build.gradle
+*.xml
+*.xml
+.idea/workspace.xml
+*.xml
